@@ -1,0 +1,85 @@
+.clock-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 20px;
+  background: #222;
+  color: #eee;
+  border-radius: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-shadow: 0 0 15px #764ba2;
+}
+
+.length-controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.length-control h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons button {
+  background: #764ba2;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background: #5a3580;
+}
+
+#break-length,
+#session-length {
+  font-size: 1.5rem;
+  min-width: 30px;
+  display: inline-block;
+}
+
+.timer {
+  background: #3a2c59;
+  padding: 20px 0;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#timer-label {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+#time-left {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.timer-controls button {
+  background: #764ba2;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timer-controls button:hover {
+  background: #5a3580;
+}
